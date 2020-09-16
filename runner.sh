@@ -58,4 +58,4 @@ echo "aligned T=0 for algae"
 
 echo "running tdnascan"
 cd TDNAscan-master
-python tdnascan.py -1 ../${args[0]}/${args[2]} -2 ../${args[0]}/${args[3]} -g ../${args[0]}/algae.masked.blast.${args[0]}/algae.masked.blast.${args[0]}.fa -t ../${args[0]}/${args[0]}/${args[0]}.fa -p ../${args[0]}/tdnascan -b 150
+python tdnascan.py -1 ../${args[0]}/${args[2]} -2 ../${args[0]}/${args[3]} -g ../${args[0]}/algae.masked.blast.${args[0]}/algae.masked.blast.${args[0]}.fa -t ../${args[0]}/${args[0]}/${args[0]}.fa -p ${args[0]}tdnascan -b 150
